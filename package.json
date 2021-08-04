@@ -1,0 +1,22 @@
+{
+  "name": "vite_antv",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@antv/l7": "^2.5.5",
+    "@antv/l7-maps": "^2.5.5",
+    "ant-design-vue": "^1.7.6",
+    "cesium": "^1.80.0",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.2.1",
+    "vite-plugin-cesium": "^1.2.4"
+  }
+}
