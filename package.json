@@ -7,8 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@antv/l7": "^2.5.5",
-    "@antv/l7-maps": "^2.5.5",
+    "@antv/l7": "^2.5.7",
+    "@antv/l7-maps": "^2.5.7",
     "ant-design-vue": "^1.7.6",
     "cesium": "^1.80.0",
     "vue": "^3.0.5"
