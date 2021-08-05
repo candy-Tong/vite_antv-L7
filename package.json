@@ -9,8 +9,10 @@
   "dependencies": {
     "@antv/l7": "^2.5.7",
     "@antv/l7-maps": "^2.5.7",
+    "@swc/core": "^1.2.74",
     "ant-design-vue": "^1.7.6",
     "cesium": "^1.80.0",
+    "rollup-plugin-swc": "^0.2.0",
     "vue": "^3.0.5"
   },
   "devDependencies": {
