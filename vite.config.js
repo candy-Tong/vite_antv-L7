@@ -7,23 +7,23 @@ import cesium from "vite-plugin-cesium"
 export default defineConfig({
   plugins: [
     vue(),
-    cesium(),
-    swc({
-      jsc: {
-        parser: {
-          syntax: "typescript",
-          //tsx: true,//if you use react
-          dynamicImport: true,
-          decorators: true,
-        },
-        target: "es2021",
-        transform: {
-          decoratorMetadata: true,
-        },
-      },
-    }),
+    // cesium(),
+    // swc({
+    //   jsc: {
+    //     parser: {
+    //       syntax: "typescript",
+    //       //tsx: true,//if you use react
+    //       dynamicImport: true,
+    //       decorators: true,
+    //     },
+    //     target: "es2021",
+    //     transform: {
+    //       decoratorMetadata: true,
+    //     },
+    //   },
+    // }),
   ],
-  esbuild: false,
+  // esbuild: false,
   server: {
     port: 8081,
   },
